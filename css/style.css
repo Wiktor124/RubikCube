@@ -30,7 +30,7 @@
     height: 400px;
 }
 
-.caras {
+.face {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 5px;
@@ -38,7 +38,7 @@
     
 }
 
-.caras-internas {
+.internal-faces {
     width: 129px;
     height: 129px;
     border: 2px solid black;
