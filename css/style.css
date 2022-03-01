@@ -5,6 +5,10 @@
     padding: 0;
     font-family: 'Roboto', sans-serif;
 }
+.button {
+   background: none;
+   border: none;
+}
 
 .container {
     display: flex;
@@ -29,9 +33,14 @@
 
 
 .cube {
-    transform-style: preserve-3d;
-    animation: turns 20s infinite linear;
+   transform-style: preserve-3d;
+   transform: rotateY(360deg);
+    
     /* perspective: 700px; */
+}
+
+.active-cube {
+    animation: turns 20s infinite linear;
 }
 
 .face {

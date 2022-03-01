@@ -2,86 +2,92 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rubik Cube</title>
-    <link rel="stylesheet" href="/css/style.css">
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Rubik Cube</title>
+	<link rel="stylesheet" href="/css/style.css">
+	<script defer src="/js/app.js"></script>
 </head>
 
 <body class="body">
-    <header class="header">Rubik Cube</header>
-    <div class="flex container">
-        <div class="child-container">
-            <div class="cube">
-                <div class="face" id="yellow-face">
-                    <div class="internal-faces yellow"></div>
-                    <div class="internal-faces yellow"></div>
-                    <div class="internal-faces yellow"></div>
-                    <div class="internal-faces yellow"></div>
-                    <div class="internal-faces yellow"></div>
-                    <div class="internal-faces yellow"></div>
-                    <div class="internal-faces yellow"></div>
-                    <div class="internal-faces yellow"></div>
-                    <div class="internal-faces yellow"></div>
-                </div>
-                <div class="face" id="green-face">
-                    <div class="internal-faces green"></div>
-                    <div class="internal-faces green"></div>
-                    <div class="internal-faces green"></div>
-                    <div class="internal-faces green"></div>
-                    <div class="internal-faces green"></div>
-                    <div class="internal-faces green"></div>
-                    <div class="internal-faces green"></div>
-                    <div class="internal-faces green"></div>
-                    <div class="internal-faces green"></div>
-                </div>
-                <div class="face" id="blue-face">
-                    <div class="internal-faces blue"></div>
-                    <div class="internal-faces blue"></div>
-                    <div class="internal-faces blue"></div>
-                    <div class="internal-faces blue"></div>
-                    <div class="internal-faces blue"></div>
-                    <div class="internal-faces blue"></div>
-                    <div class="internal-faces blue"></div>
-                    <div class="internal-faces blue"></div>
-                    <div class="internal-faces blue"></div>
-                </div>
-                <div class="face" id="red-face">
-                    <div class="internal-faces red"></div>
-                    <div class="internal-faces red"></div>
-                    <div class="internal-faces red"></div>
-                    <div class="internal-faces red"></div>
-                    <div class="internal-faces red"></div>
-                    <div class="internal-faces red"></div>
-                    <div class="internal-faces red"></div>
-                    <div class="internal-faces red"></div>
-                    <div class="internal-faces red"></div>
-                </div>
-                <div class="face" id="orange-face">
-                    <div class="internal-faces orange"></div>
-                    <div class="internal-faces orange"></div>
-                    <div class="internal-faces orange"></div>
-                    <div class="internal-faces orange"></div>
-                    <div class="internal-faces orange"></div>
-                    <div class="internal-faces orange"></div>
-                    <div class="internal-faces orange"></div>
-                    <div class="internal-faces orange"></div>
-                    <div class="internal-faces orange"></div>
-                </div>
-                <div class="face" id="white-face">
-                    <div class="internal-faces white"></div>
-                    <div class="internal-faces white"></div>
-                    <div class="internal-faces white"></div>
-                    <div class="internal-faces white"></div>
-                    <div class="internal-faces white"></div>
-                    <div class="internal-faces white"></div>
-                    <div class="internal-faces white"></div>
-                    <div class="internal-faces white"></div>
-                    <div class="internal-faces white"></div>
-                </div>
-            </div>
-        </div>
-    </div>
+	<header class="header">Rubik Cube</header>
+	<button class="button">
+		<div class="flex container">
+			<div class="child-container">
+				<div class="cube">
+					<div class="face" id="yellow-face">
+						<div class="internal-faces yellow"></div>
+						<div class="internal-faces yellow"></div>
+						<div class="internal-faces yellow"></div>
+						<div class="internal-faces yellow"></div>
+						<div class="internal-faces yellow"></div>
+						<div class="internal-faces yellow"></div>
+						<div class="internal-faces yellow"></div>
+						<div class="internal-faces yellow"></div>
+						<div class="internal-faces yellow"></div>
+					</div>
+					<div class="face" id="green-face">
+						<div class="internal-faces green"></div>
+						<div class="internal-faces green"></div>
+						<div class="internal-faces green"></div>
+						<div class="internal-faces green"></div>
+						<div class="internal-faces green"></div>
+						<div class="internal-faces green"></div>
+						<div class="internal-faces green"></div>
+						<div class="internal-faces green"></div>
+						<div class="internal-faces green"></div>
+					</div>
+					<div class="face" id="blue-face">
+						<div class="internal-faces blue"></div>
+						<div class="internal-faces blue"></div>
+						<div class="internal-faces blue"></div>
+						<div class="internal-faces blue"></div>
+						<div class="internal-faces blue"></div>
+						<div class="internal-faces blue"></div>
+						<div class="internal-faces blue"></div>
+						<div class="internal-faces blue"></div>
+						<div class="internal-faces blue"></div>
+					</div>
+					<div class="face" id="red-face">
+						<div class="internal-faces red"></div>
+						<div class="internal-faces red"></div>
+						<div class="internal-faces red"></div>
+						<div class="internal-faces red"></div>
+						<div class="internal-faces red"></div>
+						<div class="internal-faces red"></div>
+						<div class="internal-faces red"></div>
+						<div class="internal-faces red"></div>
+						<div class="internal-faces red"></div>
+					</div>
+					<div class="face" id="orange-face">
+						<div class="internal-faces orange"></div>
+						<div class="internal-faces orange"></div>
+						<div class="internal-faces orange"></div>
+						<div class="internal-faces orange"></div>
+						<div class="internal-faces orange"></div>
+						<div class="internal-faces orange"></div>
+						<div class="internal-faces orange"></div>
+						<div class="internal-faces orange"></div>
+						<div class="internal-faces orange"></div>
+					</div>
+					<div class="face" id="white-face">
+						<div class="internal-faces white"></div>
+						<div class="internal-faces white"></div>
+						<div class="internal-faces white"></div>
+						<div class="internal-faces white"></div>
+						<div class="internal-faces white"></div>
+						<div class="internal-faces white"></div>
+						<div class="internal-faces white"></div>
+						<div class="internal-faces white"></div>
+						<div class="internal-faces white"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</button>
+
+
 </body>
+
 </html>
