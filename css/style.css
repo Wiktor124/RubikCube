@@ -38,8 +38,6 @@
 .cube {
    transform-style: preserve-3d;
    transform: rotateY(360deg);
-
-   /* perspective: 700px; */
 }
 
 .active-cube {
