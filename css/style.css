@@ -7,6 +7,10 @@
    font-family: 'Roboto', sans-serif;
 }
 
+body {
+   background-color: #151515;
+}
+
 .button {
    background: none;
    border: none;
@@ -21,8 +25,8 @@
 }
 
 .child-container {
-   width: 400px;
-   height: 400px;
+   width: 300px;
+   height: 300px;
 }
 
 .header {
@@ -37,24 +41,21 @@
 
 .cube {
    transform-style: preserve-3d;
-   transform: rotateY(360deg);
-}
-
-.active-cube {
    animation: turns 20s infinite linear;
+   transform: rotateY(360deg);
 }
 
 .face {
    display: grid;
    grid-template-columns: repeat(3, 1fr);
-   gap: 5px;
+   gap: 3px;
    position: absolute;
 
 }
 
 .internal-faces {
-   width: 129px;
-   height: 129px;
+   width:70px;
+   height:70px;
    border: 2px solid black;
    border-radius: 10px;
 
@@ -70,27 +71,27 @@
 
 /* Colors */
 #yellow-face {
-   transform: translateY(-200px) rotateX(90deg);
+   transform: translateY(-107px) rotateX(90deg);
 }
 
 #green-face {
-   transform: translateZ(200px);
+   transform: translateZ(107px);
 }
 
 #blue-face {
-   transform: translateZ(-200px);
+   transform: translateZ(-107px);
 }
 
 #red-face {
-   transform: translateX(-200px) rotateY(90deg);
+   transform: translateX(-107px) rotateY(90deg);
 }
 
 #orange-face {
-   transform: translateX(200px) rotateY(90deg);
+   transform: translateX(107px) rotateY(90deg);
 }
 
 #white-face {
-   transform: translateY(200px) rotateX(90deg);
+   transform: translateY(107px) rotateX(90deg);
 }
 
 .yellow {
