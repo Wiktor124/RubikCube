@@ -11,12 +11,6 @@ body {
    background-color: #151515;
 }
 
-.button {
-   background: none;
-   border: none;
-   margin: 0 auto;
-}
-
 .container {
    display: flex;
    justify-content: center;
